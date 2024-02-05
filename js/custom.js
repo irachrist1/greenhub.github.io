@@ -14,7 +14,7 @@ $(function(){
 	var siteMenuClone = function() {
 
 		$('.js-clone-nav').each(function() {
-			var $this = $(this);
+			var $this = $(this); 
 			$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
 		});
 
